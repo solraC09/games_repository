@@ -1,4 +1,4 @@
-from games_repository.app.repositories.game_repository import *
+from app.repositories.game_repository import *
 
 def format_game(game):
     game["_id"] = str(game["_id"])
