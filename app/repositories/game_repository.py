@@ -1,4 +1,4 @@
-from games_repository.database import games_collection
+from database import games_collection
 from bson import ObjectId
 
 def create_game(game_dict):
