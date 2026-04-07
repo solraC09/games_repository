@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from games_repository.app.schemas.game_schema import Game
-from games_repository.app.services.game_service import *
+from app.schemas.game_schema import Game
+from app.services.game_service import *
 
 router = APIRouter()
 
